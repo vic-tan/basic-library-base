@@ -6,4 +6,4 @@
    
    ##v1.0.0
      
-   感谢[mkrcpp](https://github.com/vic-tan)提出改进意见！
+   
