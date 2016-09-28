@@ -28,6 +28,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:design:23.2.1'
     testCompile 'junit:junit:4.12'
 }
 
@@ -36,8 +37,8 @@ dependencies {
 publish {
     userOrg = 'vic-tan'//bintray.com用户名
     groupId = 'com.vic-tan'//jcenter上的路径
-    artifactId = 'BasicUtils'//项目名称
+    artifactId = 'basic-library-base'//项目名称
     publishVersion = '1.0.0'//版本号
     desc = 'Oh hi, this is a nice description for a project, right?'//描述，不重要
-    website = 'https://github.com/vic-tan/BasicUtils'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
+    website = 'https://github.com/vic-tan/basic-library-base'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
 }

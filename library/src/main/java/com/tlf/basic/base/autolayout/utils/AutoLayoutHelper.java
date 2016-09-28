@@ -22,22 +22,23 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.base.R;
-import com.base.autolayout.AutoLayoutInfo;
-import com.base.autolayout.attr.HeightAttr;
-import com.base.autolayout.attr.MarginAttr;
-import com.base.autolayout.attr.MarginBottomAttr;
-import com.base.autolayout.attr.MarginLeftAttr;
-import com.base.autolayout.attr.MarginRightAttr;
-import com.base.autolayout.attr.MarginTopAttr;
-import com.base.autolayout.attr.PaddingAttr;
-import com.base.autolayout.attr.PaddingBottomAttr;
-import com.base.autolayout.attr.PaddingLeftAttr;
-import com.base.autolayout.attr.PaddingRightAttr;
-import com.base.autolayout.attr.PaddingTopAttr;
-import com.base.autolayout.attr.TextSizeAttr;
-import com.base.autolayout.attr.WidthAttr;
-import com.base.autolayout.config.AutoLayoutConifg;
+import com.tlf.basic.base.R;
+import com.tlf.basic.base.autolayout.AutoLayoutInfo;
+import com.tlf.basic.base.autolayout.attr.HeightAttr;
+import com.tlf.basic.base.autolayout.attr.MarginAttr;
+import com.tlf.basic.base.autolayout.attr.MarginBottomAttr;
+import com.tlf.basic.base.autolayout.attr.MarginLeftAttr;
+import com.tlf.basic.base.autolayout.attr.MarginRightAttr;
+import com.tlf.basic.base.autolayout.attr.MarginTopAttr;
+import com.tlf.basic.base.autolayout.attr.PaddingAttr;
+import com.tlf.basic.base.autolayout.attr.PaddingBottomAttr;
+import com.tlf.basic.base.autolayout.attr.PaddingLeftAttr;
+import com.tlf.basic.base.autolayout.attr.PaddingRightAttr;
+import com.tlf.basic.base.autolayout.attr.PaddingTopAttr;
+import com.tlf.basic.base.autolayout.attr.TextSizeAttr;
+import com.tlf.basic.base.autolayout.attr.WidthAttr;
+import com.tlf.basic.base.autolayout.config.AutoLayoutConifg;
+
 
 public class AutoLayoutHelper
 {

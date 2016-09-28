@@ -3,8 +3,8 @@ package com.tlf.basic.base.adapter.recycler;
 import android.content.Context;
 import android.view.LayoutInflater;
 
-import com.base.adapter.ItemViewDelegate;
-import com.base.adapter.abslistview.AbsViewHolder;
+import com.tlf.basic.base.adapter.ItemViewDelegate;
+import com.tlf.basic.base.adapter.abslistview.AbsViewHolder;
 
 import java.util.List;
 

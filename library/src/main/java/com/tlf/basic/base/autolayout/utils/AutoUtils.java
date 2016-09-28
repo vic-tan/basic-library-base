@@ -3,8 +3,9 @@ package com.tlf.basic.base.autolayout.utils;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.base.R;
-import com.base.autolayout.config.AutoLayoutConifg;
+import com.tlf.basic.base.R;
+import com.tlf.basic.base.autolayout.config.AutoLayoutConifg;
+
 
 /**
  * Created by tanlifei on 15/12/4.

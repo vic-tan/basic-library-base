@@ -4,8 +4,9 @@ import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 
-import com.base.autolayout.utils.L;
-import com.base.autolayout.utils.ScreenUtils;
+import com.tlf.basic.base.autolayout.utils.L;
+import com.tlf.basic.base.autolayout.utils.ScreenUtils;
+
 
 /**
  * Created by tanlifei on 15/11/18.

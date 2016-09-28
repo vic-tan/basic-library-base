@@ -1,8 +1,8 @@
 package com.tlf.basic.base.adapter;
 
 
-import com.base.adapter.abslistview.AbsViewHolder;
-import com.base.adapter.recycler.RvViewHolder;
+import com.tlf.basic.base.adapter.abslistview.AbsViewHolder;
+import com.tlf.basic.base.adapter.recycler.RvViewHolder;
 
 /**
  * Created by zhy on 16/6/22.

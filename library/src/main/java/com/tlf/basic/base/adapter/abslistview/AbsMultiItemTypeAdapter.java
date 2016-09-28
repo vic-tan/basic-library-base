@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.base.adapter.ItemViewDelegate;
-import com.base.adapter.ItemViewDelegateManager;
+import com.tlf.basic.base.adapter.ItemViewDelegate;
+import com.tlf.basic.base.adapter.ItemViewDelegateManager;
 
 import java.util.List;
 

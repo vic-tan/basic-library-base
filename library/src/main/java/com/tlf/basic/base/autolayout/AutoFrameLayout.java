@@ -21,7 +21,8 @@ import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.base.autolayout.utils.AutoLayoutHelper;
+import com.tlf.basic.base.autolayout.utils.AutoLayoutHelper;
+
 
 public class AutoFrameLayout extends FrameLayout
 {

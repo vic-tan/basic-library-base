@@ -2,8 +2,8 @@ package com.tlf.basic.base.autolayout.attr;
 
 import android.view.View;
 
-import com.base.autolayout.utils.AutoUtils;
-import com.base.autolayout.utils.L;
+import com.tlf.basic.base.autolayout.utils.AutoUtils;
+import com.tlf.basic.base.autolayout.utils.L;
 
 
 /**

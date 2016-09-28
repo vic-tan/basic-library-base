@@ -7,7 +7,8 @@ import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.base.autolayout.utils.AutoLayoutHelper;
+import com.tlf.basic.base.autolayout.utils.AutoLayoutHelper;
+
 
 /**
  * Created by tanlifei on 15/6/30.

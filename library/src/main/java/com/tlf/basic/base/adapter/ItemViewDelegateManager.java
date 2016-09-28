@@ -2,8 +2,8 @@ package com.tlf.basic.base.adapter;
 
 import android.support.v4.util.SparseArrayCompat;
 
-import com.base.adapter.abslistview.AbsViewHolder;
-import com.base.adapter.recycler.RvViewHolder;
+import com.tlf.basic.base.adapter.abslistview.AbsViewHolder;
+import com.tlf.basic.base.adapter.recycler.RvViewHolder;
 
 
 /**

@@ -2,7 +2,7 @@ package com.tlf.basic.base.autolayout;
 
 import android.view.View;
 
-import com.base.autolayout.attr.AutoAttr;
+import com.tlf.basic.base.autolayout.attr.AutoAttr;
 
 import java.util.ArrayList;
 import java.util.List;
