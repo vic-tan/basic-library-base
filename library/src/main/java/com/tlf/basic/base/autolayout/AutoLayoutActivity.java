@@ -1,7 +1,7 @@
 package com.tlf.basic.base.autolayout;
 
-import android.app.Activity;
 import android.content.Context;
+import android.support.v4.app.FragmentActivity;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -9,7 +9,7 @@ import android.view.View;
 /**
  * Created by tanlifei on 15/11/19.
  */
-public class AutoLayoutActivity extends Activity {
+public class AutoLayoutActivity extends FragmentActivity {
     private static final String LAYOUT_LINEARLAYOUT = "LinearLayout";
     private static final String LAYOUT_FRAMELAYOUT = "FrameLayout";
     private static final String LAYOUT_RELATIVELAYOUT = "RelativeLayout";
