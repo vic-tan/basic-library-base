@@ -19,6 +19,8 @@ import android.widget.ProgressBar;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
+import com.tlf.basic.base.autolayout.utils.AutoUtils;
+
 public class AbsViewHolder
 {
     private SparseArray<View> mViews;
@@ -45,6 +47,7 @@ public class AbsViewHolder
         {
             View itemView = LayoutInflater.from(context).inflate(layoutId, parent,
                     false);
+            AutoUtils.autoSize(itemView);
             AbsViewHolder holder = new AbsViewHolder(context, itemView, parent, position);
             holder.mLayoutId = layoutId;
             return holder;

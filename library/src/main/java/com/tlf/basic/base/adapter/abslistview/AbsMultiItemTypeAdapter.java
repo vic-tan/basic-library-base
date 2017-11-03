@@ -8,6 +8,7 @@ import android.widget.BaseAdapter;
 
 import com.tlf.basic.base.adapter.ItemViewDelegate;
 import com.tlf.basic.base.adapter.ItemViewDelegateManager;
+import com.tlf.basic.base.autolayout.utils.AutoUtils;
 
 import java.util.List;
 
@@ -58,9 +59,11 @@ public class AbsMultiItemTypeAdapter<T> extends BaseAdapter {
         {
             View itemView = LayoutInflater.from(mContext).inflate(layoutId, parent,
                     false);
+            AutoUtils.autoSize(itemView);
             viewHolder = new AbsViewHolder(mContext, itemView, parent, position);
             viewHolder.mLayoutId = layoutId;
             onViewHolderCreated(viewHolder,viewHolder.getConvertView());
+
         } else
         {
             viewHolder = (AbsViewHolder) convertView.getTag();
