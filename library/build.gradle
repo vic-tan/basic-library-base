@@ -9,7 +9,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
-        versionName "1.0.2"
+        versionName "1.0.3"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -31,6 +31,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:cardview-v7:23.2.1'
     compile 'com.android.support:design:23.2.1'
     testCompile 'junit:junit:4.12'
 }
@@ -41,7 +42,7 @@ publish {
     userOrg = 'vic-tan'//bintray.com用户名
     groupId = 'com.vic-tan'//jcenter上的路径
     artifactId = 'basic-library-base'//项目名称
-    publishVersion = '1.0.2'//版本号
+    publishVersion = '1.0.3'//版本号
     desc = 'Oh hi, this is a nice description for a project, right?'//描述，不重要
     website = 'https://github.com/vic-tan/basic-library-base'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
 }
